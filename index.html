@@ -1,0 +1,41 @@
+<html>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  <h1 id="title">Fast Resume</h1>  
+  <p id="description">Make your resume in sec</p>
+  <form id="survey-form">
+    <div class="info">
+    <label for="name" id="name-label" value="name">Name</label>
+      <input id="name" type="text" placeholder="Enter your name" required><br><br>
+    <label type="email" id="email-label">Email</label>
+    <input id="email" type="email" placeholder="valid e-mail" required>
+    <br><br>
+    <label id="number-label">Age</label>
+    <input id="number"type="number" min="10" max="99" placeholder="1-12" required>
+    </div>
+    <br><br>
+    <div class="dropdown-button">
+    <select id="dropdown" >
+      <option>Full time job</option>
+      <option>Part-time job</option>
+      <option>Intenship</option>
+    </select>
+    </div>
+    <br><br>
+    <div class="checkbox-button">
+    <label><input type="checkbox" value="matric">Martic pass</label>
+    
+    <label><input type="checkbox" value="under-graduate">under-graduate</label>
+   <label><input type="checkbox" value="post-graduate">Post-graduate</label>
+    </div>
+    <div class="radio-button">
+    <p>Will you recommend this site to your friend</p>
+    <label><input type="radio" value="definitely" name="user-recommend" checked>Definitely</label>
+    <label><input type="radio" value ="maybe" name="user-recommend" >Maybe
+</label> 
+  <label><input type="radio" value="no" name="user-recommend">No</label>
+    </div>
+    <textarea placeholder="Enter your comment"></textarea> 
+ <button type="submit" id="submit">Submit</button>
+  </form>
+  
+</html>
